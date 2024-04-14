@@ -1,5 +1,3 @@
-# Define the content of the README.md file
-readme_content = """
 # Image Color to Grayscale Converter
 
 This program reads an image file, converts it to grayscale, displays both the original and the grayscale images, and saves the grayscale image as a new file.
