@@ -12,28 +12,3 @@ cv2.waitKey(10000)
 cv2.destroyAllWindows()
 print(image.shape)
 print(image.size)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##img = cv2.imread("novitech.png")
-##print (img.shape) #(342, 548, 3)
-##print (img.size)  #562248
