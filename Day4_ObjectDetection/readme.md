@@ -1,12 +1,19 @@
 # Motion Detection Program using OpenCV
 
-This Python program detects motion in a live video feed using OpenCV. It captures the first frame from the camera and then compares subsequent frames to detect any changes indicating motion.
+This Python script implements a basic motion detection system using OpenCV. It continuously captures frames from a webcam, identifies moving objects, and displays a bounding box around them.
 
 ## Prerequisites
 
 - Python 3.x
 - OpenCV (`cv2`)
 - imutils (`imutils`)
+
+## Libraries
+The script utilizes the following libraries:
+
+* OpenCV (cv2): For computer vision tasks like image processing and video capturing.
+* Time (time): To introduce a delay between frames for smoother processing.
+* imutils (imutils): A utility library for image processing tasks, used for resizing images in this script.
 
 You can install the required libraries using pip:
 
@@ -18,7 +25,7 @@ pip install opencv-python imutils
 1. Make sure your webcam is connected to your computer.
 2. Run the following command in your terminal to start the program:
 ```bash
-python motion_detection.py
+python cameraObjDetection_final.py
 ```
 3. Press q to exit the program.
 
@@ -27,17 +34,6 @@ python motion_detection.py
 - It then applies a Gaussian blur and thresholding to the difference image to reduce noise and highlight the moving objects.
 - If the area of the contour of the moving object is greater than a predefined threshold, it considers it as a moving object and draws a rectangle around it.
 
-# Motion Detection with OpenCV
-
-This Python script implements a basic motion detection system using OpenCV. It continuously captures frames from a webcam, identifies moving objects, and displays a bounding box around them.
-
-## Libraries
-
-The script utilizes the following libraries:
-
-* OpenCV (cv2): For computer vision tasks like image processing and video capturing.
-* Time (time): To introduce a delay between frames for smoother processing.
-* imutils (imutils): A utility library for image processing tasks, used for resizing images in this script.
 
 ## Code Breakdown
 
