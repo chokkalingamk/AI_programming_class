@@ -21,16 +21,6 @@ This program uses the OpenCV library to perform real-time face detection using t
 5. The program will open a window and start detecting faces in the live video feed from your default camera.
 6. Press "Esc" to exit the program.
 
-## How to Run
-
-1. Make sure your webcam is connected to your computer.
-2. Run the following command in your terminal to start the program:
-```bash
-python FaceDetection_program.py
-```
-3. Press q to exit the program.
-
-
 ## Code Breakdown
 
 1. **Import Libraries:**
