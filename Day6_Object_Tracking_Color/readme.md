@@ -1,6 +1,6 @@
 # Color Object Detection and Tracking
 
-This program uses the OpenCV library to perform real-time face detection using the Haar cascade classifier.
+This Python program demonstrates color object detection using OpenCV and provides real-time feedback on object movement.
 
 ## Requirements
 - Python 3.x
