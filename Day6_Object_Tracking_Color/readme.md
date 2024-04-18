@@ -1,4 +1,4 @@
-# Face Detection Program
+# Color Object Detection and Tracking
 
 This program uses the OpenCV library to perform real-time face detection using the Haar cascade classifier.
 
