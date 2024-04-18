@@ -1,6 +1,6 @@
-print("hello world")
+print("This is a program for Adding two numbers")
 
-a=4
-b=22
-c=a+b
-print(c)
+a=input('Enter the 1st number : ')
+b=input('Enter the 2nd number : ')
+c=int(a)+int(b)
+print("The vaulue of the number is :", c)
